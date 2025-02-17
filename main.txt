@@ -1,0 +1,33 @@
+Method-bu objectning ichida yozilgan funksiya method deb aytiladi.
+1.length-bu string uzunlini ko'rsatadi
+2.toUpperCase()-barcha hariflarni katta harifaga aylantirib beradi.
+3.toLowerCase()-barcha hariflarni kichik harifaga aylantirib beradi.
+4.trim()-boshi va oxiridagi bosh joylarni olib tashlaydi.
+5.trimStart()-boshidagi bosh joyni olib tashlaydi.
+6.trimEnd()-oxiridagi bosh joyni olib tashlaydi.
+7.charAt(index)-bu berilgan indexisdagi harifni qaytaradi.
+8.slice(start, end)-Matndan berilgan oraliqni kesib oladi.
+9.substring(start, end)-slice() bilan o‘xshash.
+10.replace()-Biror so‘z yoki harfni boshqa so‘zga almashtiradi.
+11.repeat(n)-bu berilgan stringni n marta takrorlash uchun ishlatiladi
+12.concat()-bu ikki yoki undan ko'p stringlarni bir-niriga qo'shish uchun ishlatiladi.
+13.charCodeAt(index)- metodi stringning berilgan indeksidagi Unicode (ASCII) qiymatini qaytaradi
+14.split()- stringni bo‘lib, massiv qaytaradi,harflarga ajratadi,necha qismga bo‘lishni belgilaydi
+15.includes()-bu methon o'sha harif yoqki o'sha so'z borligini ko'rsatib beradi va u ture va false qiymat qaytaradi.
+16.search()- srtingda berilgan ifodani qidirishda ishlatiladi,bunda qiymat topilsa indexini qaytaradi topilmasa -1 qaytaraadi
+17.indexOf()-berilgan string da indexini qaytaradi
+
+Number method
+toString()-numberni stringga o'tkazadi
+ToFixed()-sonni berilgan qiymat bo'yicha qoldiq sonni kesib oladi 
+
+Math objectlar
+1.Math.round()-Sonni eng yaqin butun songa yaxlitlaydi.
+2.Math.ceil(x)-Sonni yuqoriga  yaxlitlaydi.
+3.Math.floor()-Sonni pastga  yaxlitlaydi.
+4.Math.abs(x)-Manfiy sonlarni ijobiy sonlarga aylantiradi.
+5.Math.max()-Bir nechta son orasidan eng kattasini qaytaradi
+6.Math.min()-Bir nechta son orasidan eng kichigini qaytaradi.
+7.Math.random()-0 va 1 orasidagi tasodifiy silarni qaytaradi
+8.Math.pow(x, y)-x sonini y darajaga ko'taradi .
+9.Math.sqrt(x)-Sonning kvadrat ildizini qaytaradi.
